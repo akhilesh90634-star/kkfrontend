@@ -92,7 +92,7 @@ function Login() {
 
         <Typography textAlign="center">
           Don't have an account?{" "}
-          <Link to="/" style={{ textDecoration: "none" }}>
+          <Link to="/register" style={{ textDecoration: "none" }}>
             Register
           </Link>
         </Typography>

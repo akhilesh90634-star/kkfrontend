@@ -15,15 +15,16 @@ import Login from "./components/Auth/Login";
 import Reg from "./components/Auth/Reg";
 import AdminDash from "./components/admin/AdminDash";
 import CustomerDash from "./components/customer/CustomerDash";
+import HomePage from "./components/Home/HomePage";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
 
-        <Route path="/" element={<Reg />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<Login />} />
-
+        <Route path="/register" element={<Reg />} />
         <Route path="/admin-dashboard" element={<AdminDash />} />
         <Route path="/customer-dashboard" element={<CustomerDash />} />
 
