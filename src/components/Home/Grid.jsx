@@ -6,7 +6,7 @@ function Grid({ show }) {
     <div className={`grid-container ${show ? "show" : ""}`}>
       {[1, 2, 3, 4, 5, 6].map((item, index) => (
         <div className="card" key={index}>
-          Item {item}
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium minus rerum recusandae eum. Maxime, inventore! Ratione deleniti omnis, tempore natus aspernatur magnam at tempora facilis fugiat doloribus officia reprehenderit. A. {item}
         </div>
       ))}
     </div>
