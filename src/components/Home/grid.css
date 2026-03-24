@@ -1,0 +1,38 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* gap: 30px; */
+  /* width: 100%; */
+
+}
+
+/* Initial hidden state */
+.card {
+  height: 594px;
+  background: rgb(209, 192, 192);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 0.6s ease;
+
+  border: 1px solid green;
+}
+
+/* When visible */
+.grid-container.show .card {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger animation */
+.grid-container.show .card:nth-child(1) { transition-delay: 0.1s; }
+.grid-container.show .card:nth-child(2) { transition-delay: 0.2s; }
+.grid-container.show .card:nth-child(3) { transition-delay: 0.3s; }
+.grid-container.show .card:nth-child(4) { transition-delay: 0.4s; }
+.grid-container.show .card:nth-child(5) { transition-delay: 0.5s; }
+.grid-container.show .card:nth-child(6) { transition-delay: 0.6s; }
