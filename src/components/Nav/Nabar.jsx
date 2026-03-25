@@ -10,7 +10,7 @@ function Nabar() {
     padding: "8px 15px",
     border: "1px solid rgba(255, 255, 255, 0.2)",
     boxShadow: "0 4px 20px rgba(0,0,0,0.1)",
-    borderRadius: "8px",
+    borderRadius: "100px",
   };
 
   return (

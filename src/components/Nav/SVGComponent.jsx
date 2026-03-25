@@ -20,9 +20,8 @@ const SVGComponent = (props) => (
       textAnchor="middle"
       dominantBaseline="middle"
       fontFamily="Playfair Display, Garamond, Times New Roman, serif"
-      // fontFamily="Roboto"
       fontSize={250}
-      fontWeight={1000}
+      fontWeight={700}
       fill="#ffffff"
       letterSpacing={18}
     >

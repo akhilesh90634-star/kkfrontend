@@ -36,7 +36,7 @@ function HomePage() {
     <div>
 
       {/* HERO */}
-      <section style={{ height: "100vh", position: "relative" }}>
+      <div style={{width:"100vh", height: "100vh", position: "relative" }}>
         <video
           autoPlay
           loop
@@ -50,7 +50,7 @@ function HomePage() {
             zIndex: "-1",
           }}
         >
-          <source src="/Flowers.mp4" type="video/mp4" />
+          <source src="/Vegetables.mp4" type="video/mp4" />
         </video>
 
         <div style={{
@@ -77,7 +77,7 @@ function HomePage() {
         >
           View Products
         </Button>
-      </section>
+      </div>
 
       {/* GRID */}
       <Box
